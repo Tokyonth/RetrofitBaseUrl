@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //伪代码请求
         ApiRepository.api.baidu()
 
         ApiRepository.api.google()
